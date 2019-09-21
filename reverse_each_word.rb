@@ -1,5 +1,5 @@
-def reverse_each_word(sentence1)
-   sentence1.split(',')
-   return sentence1
+def reverse_each_word(sentence) 
+	revesed_word = sentence.split(" ")
+	revesed_word.each {|str| reverse str }
 end 
 

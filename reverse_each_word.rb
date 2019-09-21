@@ -1,5 +1,5 @@
 def reverse_each_word(sentence1) 
-	sentence1.split(" ")
+	my_array = sentence1.split(" ")
 	sentence.each do { }
 end 
 
